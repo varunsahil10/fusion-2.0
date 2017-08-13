@@ -11,4 +11,16 @@ class WelcomeController < ApplicationController
 	def competition
 		
 	end
+	def webdevelopment
+		
+	end
+	def android
+		
+	end
+	def robotics
+		
+	end
+	def hacking
+		
+	end
 end

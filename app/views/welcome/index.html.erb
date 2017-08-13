@@ -139,22 +139,27 @@
 
 
 
-	<section id="fh5co-services" data-section="services" style="background-image: url(/assets/images/wood_dark_background_texture_55321_3840x2400.jpg);" data-stellar-background-ratio="0.5">
+	<section id="fh5co-services" data-section="services" style="background-image: url(/assets/wood_dark_background_texture_55321_3840x2400.jpg);" data-stellar-background-ratio="0.5">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-left">
 					<h2 class=" left-border to-animate">Services</h2>
 					<div class="row">
 						<div class="col-md-8 subtext to-animate">
-							<button class="btn btn-primary">Learn   more >></button>
+						
+						<%= link_to "Learn   more >>", welcome_workshop_path, :class => "btn btn-primary" %>
+							
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
-					<a href="#"><i class="icon to-animate-2 icomoon icon-html5"></i>
-					<h3>Web Development &amp; Design</h3></a>
+					<i class="icon to-animate-2 icomoon icon-html5"></i>
+					<h3>
+					<%= link_to "Web Development & Design", welcome_webdevelopment_path %>
+						
+					</h3>
 					<p>Every single website, app, and piece of software you work on daily was created by a developer, from Snapchat and Instagram to Buzzfeed and CNN.com. Developers love to dream up a crazy idea or identify a BIG problem, and then come up with an elegant solution.
 
 					If you like to make things: to build furniture, knit cozy sweaters, throw a ceramic mug, then you will love learning how to take your crazy creative vision and build it into a real-live interactive web application.
@@ -162,28 +167,28 @@
 					</p>
 				</div>
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
-					<a href="#"><i class="icon to-animate-2 icon-layers2"></i>
-					<h3>Robotics</h3></a>
+					<i class="icon to-animate-2 icon-layers2"></i>
+					<h3><%= link_to "Robotics", welcome_robotics_path %></h3>
 					<p>Today's young people are immersed in technology, but the most of that technology is intangible and difficult to conceptualize.By building with robots, students are able to create their own devices and gadgets that interact with the world.
 					 This is a profound and empowering experience, which greatly impacts students. These students learn that they can control the world around them by building machines.This instills confidence in students. Specifically, it instills technological competence.</p>
 				</div>
 
 			
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
-					<a href="#"><i class="icon to-animate-2 icomoon icon-android"></i>
-					<h3>App Development</h3></a>
+					<i class="icon to-animate-2 icomoon icon-android"></i>
+					<h3><%= link_to "App Development", welcome_android_path %></h3>
 					<p>We are in an era where Google’s Android operating system has penetrated the nook and corner of the world. When it comes to mobile, a lot of people think Apple (or iOS) reigns supreme. But you’re not most people. You know better. You might know that Android has more of the mobile market share than iOS–more than 80% of the global mobile market share to be exact. And you probably also know this means the Google-maintained open-source OS is on the rise when it comes to jobs, pay and Google Play. And we’ve got an Android skill path to help you navigate what to learn and where to start.</p>
 				</div>
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
-					<a href="#"><i class="icon to-animate-2 icon-monitor"></i>
-					<h3>Ethical Hacking</h3></a>
+					<i class="icon to-animate-2 icon-monitor"></i>
+					<h3><%= link_to "Ethical Hacking", welcome_hacking_path %></h3>
 					<p>Learning how to hack helps information security professionals implement the strongest possible security practices. It’s as much about finding and fixing security vulnerabilities as it is anticipating them. As you learn more about the methods hackers use to infiltrate systems, you’ll be able to preemptively resolve issues; if you don’t understand how black hat hackers could get in to your systems, you’re going to have a hard time securing them.</p>
 				</div>
 				
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center to-animate">
-					<div class="btn">See more >>></div>
+					<%= link_to "See more >>>", welcome_workshop_path, :class => "btn" %>
 				</div>
 			</div>
 
