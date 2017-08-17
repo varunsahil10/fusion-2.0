@@ -18,6 +18,7 @@ Rails.application.config.assets.precompile += %w( icomoon.css)
 Rails.application.config.assets.precompile += %w( simple-line-icons.css )
 Rails.application.config.assets.precompile += %w( magnific-popup.css )
 Rails.application.config.assets.precompile += %w( bootstrap.css )
+Rails.application.config.assets.precompile += %w( sidemenucss.css )
 
 Rails.application.config.assets.precompile += %w( jquery.min.js )
 Rails.application.config.assets.precompile += %w( jquery.easing.1.3.js )
