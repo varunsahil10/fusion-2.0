@@ -29,4 +29,28 @@ class WelcomeController < ApplicationController
 	def Gesture
 		
 	end
+	def surviliance
+		
+	end
+	def voice
+		
+	end
+	def mobile
+		
+	end
+	def swarm
+		
+	end
+	def mat
+		
+	end
+	def sixth
+		
+	end
+	def accelero
+		
+	end
+	def pcb
+		
+	end
 end
