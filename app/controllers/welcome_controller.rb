@@ -23,4 +23,10 @@ class WelcomeController < ApplicationController
 	def hacking
 		
 	end
+	def rf
+		
+	end
+	def Gesture
+		
+	end
 end
