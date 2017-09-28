@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 	get 'welcome/webdevelopment', to: 'welcome#webdevelopment'
 	get 'welcome/android', to: 'welcome#android'
 	get 'welcome/hacking', to: 'welcome#hacking'
+	
 	get 'welcome/robo/rf', to: 'welcome#rf'
 	get 'welcome/robo/Gesture', to: 'welcome#Gesture'
 	get 'welcome/robo/surviliance', to: 'welcome#surviliance'
@@ -18,5 +19,8 @@ Rails.application.routes.draw do
 	get 'welcome/robo/sixth', to: 'welcome#sixth'
 	get 'welcome/robo/accelero', to: 'welcome#accelero'
 	get 'welcome/robo/pcb', to: 'welcome#pcb'
+
+	get 'welcome/computer', to: 'welcome#computer'
+	get 'welcome/matlab', to: 'welcome#matlab'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

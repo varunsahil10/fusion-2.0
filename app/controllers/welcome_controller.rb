@@ -53,4 +53,10 @@ class WelcomeController < ApplicationController
 	def pcb
 		
 	end
+	def computer
+		
+	end
+	def matlab
+		
+	end
 end
